@@ -29,6 +29,8 @@ python preprocess_training_data.py
 
 2. Download llama3-8b-instruct from [HuggingFace](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)
 
+3. Download trained checkpoint `accessibility_llama3-8b-lora32_alpha16_ep10_bs64_lr3e-5` [here](https://usfedu-my.sharepoint.com/personal/lingyaol_usf_edu/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Flingyaol%5Fusf%5Fedu%2FDocuments%2FProject%20%2D%20Accessible), and unzip it under `checkpoints` directory.
+
 
 ## Training
 Llama3-8b LoRA finetuning with flash attention requires 40GB GPUs with CUDA >11.7 (see more [details](https://github.com/Dao-AILab/flash-attention?tab=readme-ov-file#nvidia-cuda-support))
@@ -38,6 +40,7 @@ Llama3-8b LoRA finetuning with flash attention requires 40GB GPUs with CUDA >11.
 ```
 
 ## Evaluation
+You can use our trained checkpoint  `accessibility_llama3-8b-lora32_alpha16_ep10_bs64_lr3e-5` or new checkpoint trained by your own.
 ```
 ./scripts/evaluate.sh'
 ```
