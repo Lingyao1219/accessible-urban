@@ -33,7 +33,7 @@ python preprocess_training_data.py
 
 
 ## Training
-Llama3-8b LoRA finetuning with flash attention requires 40GB GPUs with CUDA >11.7 (see more [details](https://github.com/Dao-AILab/flash-attention?tab=readme-ov-file#nvidia-cuda-support))
+Llama3-8b LoRA finetuning with flash attention requires GPUs with CUDA >11.7 and memory > 18GB (see more [details](https://github.com/Dao-AILab/flash-attention?tab=readme-ov-file#nvidia-cuda-support))
 
 ```
 ./scripts/finetune_lora.sh
@@ -42,7 +42,7 @@ Llama3-8b LoRA finetuning with flash attention requires 40GB GPUs with CUDA >11.
 ## Evaluation
 You can use our trained checkpoint  `accessibility_llama3-8b-lora32_alpha16_ep10_bs64_lr3e-5` or new checkpoint trained by your own.
 ```
-./scripts/evaluate.sh'
+./scripts/evaluate.sh
 ```
 
 You will get 
