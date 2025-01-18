@@ -1,0 +1,7 @@
+﻿Model,negative,neutral,positive,unrelated
+RoBERTa,0.52,0.12,0.36,0
+TF-IDF+RF,0.56,0.2,0.62,0.89
+TF-IDF+SGD,0.66,0.24,0.74,0.88
+TF-IDF+LR,0.62,0.29,0.72,0.9
+BERT,0.68,0.44,0.88,0.88
+Llama 3,0.9,0.75,0.95,0.9

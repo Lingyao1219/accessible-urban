@@ -1,0 +1,7 @@
+﻿Model,Training,Testing
+RoBERTa,,0.347
+TF-IDF+RF,0.934,0.717
+TF-IDF+SGD,0.917,0.762
+TF-IDF+LR,0.977,0.754
+BERT,0.999,0.81
+Llama 3,0.999,0.91
