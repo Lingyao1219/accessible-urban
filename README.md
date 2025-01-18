@@ -29,7 +29,6 @@ study highlights the potential of crowdsourcing for identifying accessibility ch
    - [sentiment_classifiers.ipynb](https://github.com/Lingyao1219/accessible-urban/blob/main/classifiers/sentiment_classifier.ipynb): Explores various sentiment classification techniques, including RoBERTa-based sentiment.
    - [tfidf_classifiers.ipynb](https://github.com/Lingyao1219/accessible-urban/blob/main/classifiers/tfidf_classifiers.ipynb): Implements TF-IDF based classifiers for comparison.
    - [model_performance.ipynb](https://github.com/Lingyao1219/accessible-urban/blob/main/model_performance/model_performance.ipynb): Evaluates and compares performance of different models.
-   - [clean_text.py](https://github.com/Lingyao1219/accessible-urban/blob/main/classifiers/clean_text.py): Contains utility functions for text preprocessing.
    - For Llama 3, we select the Llama-3-8B-Instruct as the backbone model and fine-tune it with LoRA. The setting for the best checkpoint is: We obtain 91% accuracy on the test dataset. More details can be found in [llama3_experiments](https://github.com/Lingyao1219/accessible-urban/tree/main/llama3_experiments) directory.
 
 5. **POI-level Analysis**: Text cleaning, POI analysis, and textual analysis.
