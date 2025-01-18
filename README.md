@@ -26,7 +26,7 @@ study highlights the potential of crowdsourcing for identifying accessibility ch
 4. **Modeling**: Sentiment classifier, TF-IDF classifiers, BERT classifier, Llama3 classifier using various methods, model performance evaluation, and text processing utilities.
    - [llama3 experiments](https://github.com/Lingyao1219/accessible-urban/tree/main/llama3_experiments): contains all the relevant files to implement Llama3 model
    - [bert_classifier.ipynb](https://github.com/Lingyao1219/accessible-urban/blob/main/classifiers/bert_classifier.ipynb): Implements and trains the BERT model for perception classification.
-   - [sentiment_classifiers.ipynb](https://github.com/Lingyao1219/accessible-urban/blob/main/classifiers/sentiment_classifier.ipynb): Explores various sentiment classification techniques, including RoBERTa-based sentiment and Vader sentiment.
+   - [sentiment_classifiers.ipynb](https://github.com/Lingyao1219/accessible-urban/blob/main/classifiers/sentiment_classifier.ipynb): Explores various sentiment classification techniques, including RoBERTa-based sentiment.
    - [tfidf_classifiers.ipynb](https://github.com/Lingyao1219/accessible-urban/blob/main/classifiers/tfidf_classifiers.ipynb): Implements TF-IDF based classifiers for comparison.
    - [model_performance.ipynb](https://github.com/Lingyao1219/accessible-urban/blob/main/model_performance/model_performance.ipynb): Evaluates and compares performance of different models.
    - [clean_text.py](https://github.com/Lingyao1219/accessible-urban/blob/main/classifiers/clean_text.py): Contains utility functions for text preprocessing.
