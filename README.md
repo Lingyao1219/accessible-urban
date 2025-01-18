@@ -65,7 +65,7 @@ The original data used in this study comes from:
 1. **Google Maps Reviews**: 
    - Source: "Google local review data" published by researchers from UCSD (https://datarepo.eng.ucsd.edu/mcauley_group/gdrive/googlelocal/). 
    - Please remember to cite the original two papers.
-2. **Processed Parking-related Reviews**:
+2. **Processed Reviews**:
    - The processed data is available upon request from the corresponding authors of this project.
 
 Please note that use of this data must comply with the original data providers' terms of service and any applicable licensing agreements.
